@@ -1,0 +1,19 @@
+@use '../styles/abstracts/vars';
+
+.header {
+	background-color: vars.$color_green_10;
+	padding: 1rem;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav_container {
+	width: 100vw;
+	height: 100vh;
+	background-color: vars.$color_green;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
